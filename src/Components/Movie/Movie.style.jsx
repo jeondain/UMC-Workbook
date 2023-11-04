@@ -7,6 +7,7 @@ export const AppWrapper = styled.div`
 export const AppContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  justify-content: center;
 `;
 
 export const Image = styled.img`
@@ -60,5 +61,40 @@ export const Overview = styled.div`
   ${Poster}:hover & {
     cursor: pointer;
     display: flex;
+  }
+`;
+
+export const Header = styled.header`
+  display: flex;
+  background-color: rgb(23, 23, 65);  
+  color: #fff;
+  padding: 10px;
+  width: 100%;  
+`
+
+export const Nav = styled.nav`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    margin: 10px;
+    margin-left: 30px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li {
+    margin: 0 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
   }
 `;
