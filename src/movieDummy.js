@@ -314,85 +314,85 @@ export const movies = {
         "vote_average": 6.6,
         "vote_count": 63
       },
-      // {
-      //   "adult": false,
-      //   "backdrop_path": "/6Lqs0Bw2L2ZoVgx9XpmeN7vBcr0.jpg",
-      //   "genre_ids": [
-      //     18
-      //   ],
-      //   "id": 960275,
-      //   "original_language": "fr",
-      //   "original_title": "Maestro(s)",
-      //   "overview": "권위 있는 빅투아르 음악상을 수상하며 차세대 거장으로 자리매김한 지휘자 ‘드니 뒤마르’. 그가 넘어야 할 가장 큰 산은 다름 아닌 같은 지휘자이자 음악계의 거장인 아버지 ‘프랑수아 뒤마르’이다.  한편, 아버지 ‘프랑수아’는 존경받는 최고의 지휘자지만 곧 정상의 위치에서 밀려날지도 모른다는 위기감과 함께, 같은 분야에서 승승장구하는 아들 ‘드니’에게 묘한 경쟁심을 느끼고 있다.  그러던 중 ‘프랑수아’는 평생을 소망하던, 이탈리아 ‘라 스칼라’ 극장의 지휘자 자리를 제안하는 전화를 받고 뛸 듯이 기뻐한다. 하지만 아들 ‘드니’는 자신에게 가야 할 제안이 아버지에게 잘못 전달되었음을 알게 되고, 인생 최대의 고민과 마주한다.  꿈의 무대를 두고 마주한 아버지와 아들! ‘라 스칼라’ 무대에 서게 될 주인공은 과연 누구일까?",
-      //   "popularity": 36.246,
-      //   "poster_path": "/8CNn2HuBMQYOA425MbAoc3oeTNO.jpg",
-      //   "release_date": "2023-08-09",
-      //   "title": "마에스트로",
-      //   "video": false,
-      //   "vote_average": 5.7,
-      //   "vote_count": 36
-      // },
-      // {
-      //   "adult": false,
-      //   "backdrop_path": "/8nLiWpgxOfH15FjBgTvvcah3ZUb.jpg",
-      //   "genre_ids": [
-      //     28,
-      //     53,
-      //     80,
-      //     35
-      //   ],
-      //   "id": 1015963,
-      //   "original_language": "en",
-      //   "original_title": "High Heat",
-      //   "overview": "전직 특수요원 출신 스타 셰프 '아나'(올가 쿠릴렌코)가 마피아의 타겟이 된 레스토랑을 구하기 위해 킬러 본능을 다시 일깨운다.",
-      //   "popularity": 24.199,
-      //   "poster_path": "/wIFYnvvdwsjD0Wjeg8MjIIp58rR.jpg",
-      //   "release_date": "2023-08-17",
-      //   "title": "킬러의 레스토랑",
-      //   "video": false,
-      //   "vote_average": 5.6,
-      //   "vote_count": 98
-      // },
-      // {
-      //   "adult": false,
-      //   "backdrop_path": "/4hAhZ66n5iasGtSYHTFg6oGdJk0.jpg",
-      //   "genre_ids": [
-      //     53,
-      //     27,
-      //     878
-      //   ],
-      //   "id": 660942,
-      //   "original_language": "no",
-      //   "original_title": "De uskyldige",
-      //   "overview": "이다와 안나는 새로운 아파트로 이사한 직후, 또래인 벤자민, 아이샤와 친구가 된다. 네 명의 아이들은 어른이 개입하지 않는 순간, 특별한 잠재력을 깨워나가기 시작하고 벤자민은 능력을 이용해 사람들을 조정할 수 있게 된다. 단순한 호기심과 장난으로 행해지던 어떤 일들이, 급기야 분노라는 감정과 이어지고 결국 친구들을 비롯해 주변에 위협을 가하기 시작하는 벤자민. 가장 순수하고, 본능적이었던, 그래서 더욱 파괴적이고 잔인할 수 있었던 잔혹한 동심의 세계가 펼쳐진다!",
-      //   "popularity": 22.179,
-      //   "poster_path": "/tNJ2oOuTPHny3x633DwwKDnc5mQ.jpg",
-      //   "release_date": "2023-09-06",
-      //   "title": "이노센트",
-      //   "video": false,
-      //   "vote_average": 7,
-      //   "vote_count": 439
-      // },
-      // {
-      //   "adult": false,
-      //   "backdrop_path": "/g8kCHQzfogy1t1dE9nPBtiFkz64.jpg",
-      //   "genre_ids": [
-      //     53,
-      //     878,
-      //     18
-      //   ],
-      //   "id": 729854,
-      //   "original_language": "ko",
-      //   "original_title": "콘크리트 유토피아",
-      //   "overview": "대지진으로 하루아침에 폐허가 된 서울. 모든 것이 무너졌지만 단 한 곳, 황궁 아파트만은 그대로다. 소문을 들은 외부 생존자들이 황궁 아파트로 몰려들자 위협을 느끼기 시작하는 입주민들. 생존을 위해 하나가 된 그들은 새로운 주민 대표 영탁을 중심으로 외부인의 출입을 철저히 막아선 채 아파트 주민만을 위한 새로운 규칙을 만든다. 덕분에 지옥 같은 바깥 세상과 달리 주민들에겐 더 없이 안전하고 평화로운 유토피아 황궁 아파트. 하지만 끝이 없는 생존의 위기 속 그들 사이에서도 예상치 못한 갈등이 시작되는데...",
-      //   "popularity": 22.278,
-      //   "poster_path": "/9dENCKupUckoT1WgOohHMZfVl61.jpg",
-      //   "release_date": "2023-08-09",
-      //   "title": "콘크리트 유토피아",
-      //   "video": false,
-      //   "vote_average": 8,
-      //   "vote_count": 3
-      // }
+      {
+        "adult": false,
+        "backdrop_path": "/6Lqs0Bw2L2ZoVgx9XpmeN7vBcr0.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 960275,
+        "original_language": "fr",
+        "original_title": "Maestro(s)",
+        "overview": "권위 있는 빅투아르 음악상을 수상하며 차세대 거장으로 자리매김한 지휘자 ‘드니 뒤마르’. 그가 넘어야 할 가장 큰 산은 다름 아닌 같은 지휘자이자 음악계의 거장인 아버지 ‘프랑수아 뒤마르’이다.  한편, 아버지 ‘프랑수아’는 존경받는 최고의 지휘자지만 곧 정상의 위치에서 밀려날지도 모른다는 위기감과 함께, 같은 분야에서 승승장구하는 아들 ‘드니’에게 묘한 경쟁심을 느끼고 있다.  그러던 중 ‘프랑수아’는 평생을 소망하던, 이탈리아 ‘라 스칼라’ 극장의 지휘자 자리를 제안하는 전화를 받고 뛸 듯이 기뻐한다. 하지만 아들 ‘드니’는 자신에게 가야 할 제안이 아버지에게 잘못 전달되었음을 알게 되고, 인생 최대의 고민과 마주한다.  꿈의 무대를 두고 마주한 아버지와 아들! ‘라 스칼라’ 무대에 서게 될 주인공은 과연 누구일까?",
+        "popularity": 36.246,
+        "poster_path": "/8CNn2HuBMQYOA425MbAoc3oeTNO.jpg",
+        "release_date": "2023-08-09",
+        "title": "마에스트로",
+        "video": false,
+        "vote_average": 5.7,
+        "vote_count": 36
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8nLiWpgxOfH15FjBgTvvcah3ZUb.jpg",
+        "genre_ids": [
+          28,
+          53,
+          80,
+          35
+        ],
+        "id": 1015963,
+        "original_language": "en",
+        "original_title": "High Heat",
+        "overview": "전직 특수요원 출신 스타 셰프 '아나'(올가 쿠릴렌코)가 마피아의 타겟이 된 레스토랑을 구하기 위해 킬러 본능을 다시 일깨운다.",
+        "popularity": 24.199,
+        "poster_path": "/wIFYnvvdwsjD0Wjeg8MjIIp58rR.jpg",
+        "release_date": "2023-08-17",
+        "title": "킬러의 레스토랑",
+        "video": false,
+        "vote_average": 5.6,
+        "vote_count": 98
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/4hAhZ66n5iasGtSYHTFg6oGdJk0.jpg",
+        "genre_ids": [
+          53,
+          27,
+          878
+        ],
+        "id": 660942,
+        "original_language": "no",
+        "original_title": "De uskyldige",
+        "overview": "이다와 안나는 새로운 아파트로 이사한 직후, 또래인 벤자민, 아이샤와 친구가 된다. 네 명의 아이들은 어른이 개입하지 않는 순간, 특별한 잠재력을 깨워나가기 시작하고 벤자민은 능력을 이용해 사람들을 조정할 수 있게 된다. 단순한 호기심과 장난으로 행해지던 어떤 일들이, 급기야 분노라는 감정과 이어지고 결국 친구들을 비롯해 주변에 위협을 가하기 시작하는 벤자민. 가장 순수하고, 본능적이었던, 그래서 더욱 파괴적이고 잔인할 수 있었던 잔혹한 동심의 세계가 펼쳐진다!",
+        "popularity": 22.179,
+        "poster_path": "/tNJ2oOuTPHny3x633DwwKDnc5mQ.jpg",
+        "release_date": "2023-09-06",
+        "title": "이노센트",
+        "video": false,
+        "vote_average": 7,
+        "vote_count": 439
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/g8kCHQzfogy1t1dE9nPBtiFkz64.jpg",
+        "genre_ids": [
+          53,
+          878,
+          18
+        ],
+        "id": 729854,
+        "original_language": "ko",
+        "original_title": "콘크리트 유토피아",
+        "overview": "대지진으로 하루아침에 폐허가 된 서울. 모든 것이 무너졌지만 단 한 곳, 황궁 아파트만은 그대로다. 소문을 들은 외부 생존자들이 황궁 아파트로 몰려들자 위협을 느끼기 시작하는 입주민들. 생존을 위해 하나가 된 그들은 새로운 주민 대표 영탁을 중심으로 외부인의 출입을 철저히 막아선 채 아파트 주민만을 위한 새로운 규칙을 만든다. 덕분에 지옥 같은 바깥 세상과 달리 주민들에겐 더 없이 안전하고 평화로운 유토피아 황궁 아파트. 하지만 끝이 없는 생존의 위기 속 그들 사이에서도 예상치 못한 갈등이 시작되는데...",
+        "popularity": 22.278,
+        "poster_path": "/9dENCKupUckoT1WgOohHMZfVl61.jpg",
+        "release_date": "2023-08-09",
+        "title": "콘크리트 유토피아",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 3
+      }
     ],
     "total_pages": 5,
     "total_results": 83
