@@ -5,13 +5,13 @@ class AdPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showAd: true, // Initially show the ad
+      showAd: true,
     };
   }
 
   handleToggleClick = () => {
     this.setState((prevState) => ({
-      showAd: !prevState.showAd, // Toggle the showAd state
+      showAd: !prevState.showAd,
     }));
   };
 
@@ -19,7 +19,7 @@ class AdPage extends Component {
     return (
       <div className="ad-page">
         <button onClick={this.handleToggleClick}>
-          {this.state.showAd ? 'Hide Ad' : 'Show Ad'}
+          {this.state.showAd ? '광고 안 보기' : '광고 보기'}
         </button>
         <Ad showAd={this.state.showAd} />
       </div>

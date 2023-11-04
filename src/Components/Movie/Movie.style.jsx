@@ -7,11 +7,12 @@ export const AppWrapper = styled.div`
 export const AppContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  justify-content: center;
+  // justify-content: center;
+  align-items: center;
 `;
 
 export const Image = styled.img`
-  width: 170px;
+  width: 173px;
   height: 250px;
 `;
 
