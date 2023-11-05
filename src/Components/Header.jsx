@@ -24,6 +24,9 @@ function Header() {
           <li>
             <Link to="/Celebirity">인물</Link>
           </li>
+          <li>
+            <MS.LoginButton to="/login">로그인</MS.LoginButton>
+          </li>
         </ul>
       </MS.Nav>
     </MS.Header>

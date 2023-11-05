@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const AppWrapper = styled.div`
   display: flex;
@@ -66,8 +67,7 @@ export const Overview = styled.div`
 export const Header = styled.header`
   display: flex;
   background-color: rgb(23, 23, 65);  
-  color: #fff;
-  padding: 10px;
+  padding: 5px;
   width: 100%;  
 `
 
@@ -93,7 +93,16 @@ export const Nav = styled.nav`
   }
 
   a {
+    font-size: 15px;
     text-decoration: none;
     color: #fff;
   }
+`;
+
+export const LoginButton = styled(Link)`
+  padding: 3px 10px;
+  color: #000 !important;
+  margin-left: 5px;
+  background-color: #fff;
+  border-radius: 0.7em;
 `;

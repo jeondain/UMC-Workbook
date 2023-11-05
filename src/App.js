@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { movies } from './movieDummy.js';
-import Movie from './Components/Movie/Movie'
 import Header from './Components/Header.jsx';
 import Home from "./pages/Home.jsx";
-import Ad from "./Components/Ad.jsx";
+import Movies from "./pages/Movies.jsx";
 import * as MS from './Components/Movie/Movie.style'
+import Celebirity from "./pages/Celebirity.jsx";
+import TV from "./pages/TV.jsx";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <MS.AppContainer>
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/Ad" element={<Ad/>} />
-            <Route path="/Movies" element={<MovieList movies={movies.results} />} />
+            <Route path="/Movies" element={<Movies movies={movies.results} />} />
+            <Route path="/TV" element={<TV/>} />
+            <Route path="/Celebirity" element={<Celebirity/>} />
           </Routes>
         </MS.AppContainer>
       </MS.AppWrapper> 
@@ -23,20 +25,6 @@ function App() {
   );
 }
 
-function MovieList({ movies }) {
-  return (
-    <>
-      {movies.map((item) => (
-        <Movie
-          key={item.id}
-          title={item.title}
-          poster_path={item.poster_path}
-          vote_average={item.vote_average}
-          overview={item.overview}
-        />
-      ))}
-    </>
-  );
-}
+
 
 export default App;

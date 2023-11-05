@@ -2,7 +2,7 @@ import AdPage from "../Components/AdPage";
 
 function Home() {
     return (
-    <AdPage></AdPage>
+        <AdPage></AdPage>
     )
 }
 
