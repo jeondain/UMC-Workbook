@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import * as MS from './Movie/Movie.style'
+import LoginControl from './LoginControl';
 
 function Header() {
   return (
@@ -25,7 +26,9 @@ function Header() {
             <Link to="/Celebirity">인물</Link>
           </li>
           <li>
-            <MS.LoginButton to="/login">로그인</MS.LoginButton>
+            <a>
+              <LoginControl></LoginControl>
+            </a>
           </li>
         </ul>
       </MS.Nav>

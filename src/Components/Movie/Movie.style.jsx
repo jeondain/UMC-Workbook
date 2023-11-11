@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 export const AppWrapper = styled.div`
   display: flex;
@@ -8,10 +7,12 @@ export const AppWrapper = styled.div`
 export const AppContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  max-width: 1500px;
+  margin: auto auto;
 `;
 
 export const Image = styled.img`
-  width: 173px;
+  width: 170px;
   height: 250px;
 `;
 
@@ -68,7 +69,8 @@ export const Header = styled.header`
   display: flex;
   background-color: rgb(23, 23, 65);  
   padding: 5px;
-  width: 100%;  
+  max-width: 100%;  
+  margin: auto auto;
 `
 
 export const Nav = styled.nav`
@@ -99,10 +101,9 @@ export const Nav = styled.nav`
   }
 `;
 
-export const LoginButton = styled(Link)`
+export const LoginButton = styled.button`
   padding: 3px 10px;
-  color: #000 !important;
   margin-left: 5px;
-  background-color: #fff;
-  border-radius: 0.7em;
+  margin-right: 5px;
+  border-radius: 1em;
 `;
