@@ -5,6 +5,9 @@ export const AppWrapper = styled.div`
 `;
 
 export const AppContainer = styled.div`
+`;
+
+export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   max-width: 1500px;
@@ -107,3 +110,17 @@ export const LoginButton = styled.button`
   margin-right: 5px;
   border-radius: 1em;
 `;
+
+export const NotFound = styled.div`
+  margin-left: 50px;
+  margin-top: 30px;
+`
+
+export const MovetoMain = styled.div`
+  color: red;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+`

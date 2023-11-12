@@ -12,27 +12,25 @@ const Movie = ({ title, poster_path, vote_average, overview }) => {
     navigate(`/Movies/${title}`, {
       state: {
         title,
-        poster_path    
+        poster_path,    
+        vote_average, 
+        overview
       },
     });
   };
 
   return (
-      <MS.AppWrapper>
-        <MS.AppContainer>
-          <MS.Poster onClick={onClickImg }>
-            <MS.Image src={`https://image.tmdb.org/t/p/w1280/${poster_path}`} alt={title} />
-              <MS.TitleBox>
-                <MS.Title>{title}</MS.Title>
-                <MS.VoteAverage>{vote_average}</MS.VoteAverage>
-              </MS.TitleBox>
-              <Overview
-                  title={title}
-                  overview={overview}
-              />
-          </MS.Poster>
-        </MS.AppContainer>
-      </MS.AppWrapper>
+    <MS.Poster onClick={onClickImg }>
+      <MS.Image src={`https://image.tmdb.org/t/p/w1280/${poster_path}`} alt={title} />
+      <MS.TitleBox>
+        <MS.Title>{title}</MS.Title>
+        <MS.VoteAverage>{vote_average}</MS.VoteAverage>
+      </MS.TitleBox>
+      <Overview
+        title={title}
+        overview={overview}
+      />
+    </MS.Poster>
   );
 };
 
