@@ -12,7 +12,7 @@ function MovieDetail() {
     console.log(state);
 
     return (
-		<div>
+	<div>
             <img src={`https://image.tmdb.org/t/p/w1280/${state.poster_path}`} alt={title} width="200px"/>
             {title}
         </div>
