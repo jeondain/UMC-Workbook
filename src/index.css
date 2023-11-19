@@ -1,0 +1,176 @@
+.App {
+  display: flex;
+}
+
+.app-container {
+  margin: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  max-width: 1500px;
+  margin: auto auto;
+}
+
+img {
+  width: 170px;
+  height: 250px;
+}
+
+.poster {
+  margin: 5px;
+}
+
+.title-box {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  padding: 5px;
+  margin: 0;
+
+  background-color: rgb(61, 61, 107);
+  width: 94%;
+  height: 60px;
+  font-size: 12px;
+  color: white;
+  border-radius: 0.2em;
+}
+
+.vote_average {
+  display: flex;
+  justify-content: right;
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+}
+
+.poster-overview {
+  margin: 5px;
+}
+
+.overview {
+  display: none;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 10px;
+  color: white;
+
+  position: absolute;
+  height: 315px;
+  width: 162px;
+  padding: 5px;
+
+  transform: translate(-6px, -330px);
+  -ms-transform: translate(-6px, -330px);
+}
+
+.poster:hover .overview {
+  cursor: pointer;
+  display: flex;
+}
+
+.adImg {
+  width: 100%;
+}
+
+.Header {
+  display: flex;
+  background-color: rgb(23, 23, 65);
+  padding: 5px;
+  max-width: 100%;
+  margin: auto auto;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav img {
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.Nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Nav li {
+  margin: 0 10px;
+}
+
+.Nav a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.LoginButton {
+  padding: 3px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 1em;
+}
+
+.NotFound {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.MovetoMain {
+  color: red;
+}
+
+.MovetoMain:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Login {
+  width: 100%;
+}
+
+.Login h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.Login label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Login input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+
+.Login button {
+  width: 100%;
+  padding: 12px 12px;
+  background-color: rgb(23, 23, 65);
+  color: white;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.Login button:hover {
+  background-color: rgb(30, 30, 82);
+}

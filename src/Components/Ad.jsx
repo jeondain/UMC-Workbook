@@ -8,7 +8,7 @@ const Ad = ({ showAd }) => {
 
   return (
     <div className="ad-container">
-      <img src={adImage} alt="Advertisement" width="100%"/>
+      <img className="adImg" src={adImage} alt="Advertisement"/>
     </div>
   );
 }

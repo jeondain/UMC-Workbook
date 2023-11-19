@@ -1,23 +1,26 @@
 import React, { useState  } from 'react';
-import * as MS from './Movie/Movie.style';
+import { useNavigate } from 'react-router-dom';
 
 const LoginControl = () => {
+  const navigate = useNavigate();
+
   const [isLogin, setIsLogin] = useState(true);
 
   const handleToggleClick = () => {
     setIsLogin((prevIsLogin) => !prevIsLogin);
+    navigate(isLogin ? '/' : '/Login');
   };
 
   return (
     <div>
       {isLogin ? (
         <div>
-          <MS.LoginButton onClick={handleToggleClick}>로그아웃</MS.LoginButton>
+          <button className="LoginButton" onClick={handleToggleClick}>로그아웃</button>
           환영합니다!
         </div>
       ) : (
         <div>
-          <MS.LoginButton onClick={handleToggleClick}>로그인</MS.LoginButton>
+          <button className="LoginButton" onClick={handleToggleClick}>로그인</button>
           로그인 해주세요!
         </div>
       )}

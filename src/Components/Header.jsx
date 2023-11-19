@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import * as MS from './Movie/Movie.style'
 import LoginControl from './LoginControl';
 
 function Header() {
   return (
-    <MS.Header>
-      <MS.Nav>
+    <header className="Header">
+      <nav className="Nav">
         <Link to="/"> 
             <img
                 style={{ width: "154px", height: "20px" }}
@@ -31,8 +30,8 @@ function Header() {
             </a>
           </li>
         </ul>
-      </MS.Nav>
-    </MS.Header>
+      </nav>
+    </header>
   );
 }
 

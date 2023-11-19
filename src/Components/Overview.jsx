@@ -1,15 +1,14 @@
 import React from 'react';
-import * as MS from './Movie/Movie.style'
 
 function Overview({ title, overview }) {
   return (
-    <MS.PosterOverview>
-      <MS.Overview>
+    <div className="poster-overview">
+      <div className="overview">
         {title}
         <br /> <br />
         {overview}
-      </MS.Overview>
-    </MS.PosterOverview>
+      </div>
+    </div>
   )
 }
 
